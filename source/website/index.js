@@ -6,6 +6,7 @@ import { SetEventHandler, HandleEvent } from './eventhandler.js';
 import { PluginType, RegisterPlugin } from './pluginregistry.js';
 import { ButtonDialog, ProgressDialog } from './dialog.js';
 import { ShowMessageDialog } from './dialogs.js';
+import { InitLocalization } from './localization.js';
 
 import * as Engine from '../engine/main.js';
 export { Engine };
@@ -21,6 +22,8 @@ import './css/navigator.css';
 import './css/sidebar.css';
 import './css/website.css';
 import './css/embed.css';
+
+InitLocalization ();
 
 export const UI = {
     ButtonDialog,
