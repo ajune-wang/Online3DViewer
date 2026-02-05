@@ -1,7 +1,7 @@
 {
 	"name": "online-3d-viewer",
 	"version": "0.18.0",
-	"description": "Online 3D Viewer",
+	"description": "在线3D查看器",
 	"license": "MIT",
 	"type": "module",
 	"main": "./build/engine/o3dv.module.js",

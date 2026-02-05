@@ -137,9 +137,9 @@ const LocalizedStrings = {
         en: 'Embedding Code',
         zh: '嵌入代码'
     },
-    'Embedding Online 3D Viewer in an iframe is not supported.': {
-        en: 'Embedding Online 3D Viewer in an iframe is not supported.',
-        zh: '不支持在 iframe 中嵌入 Online 3D Viewer。'
+    'Embedding 在线3D查看器 in an iframe is not supported.': {
+        en: 'Embedding 在线3D查看器 in an iframe is not supported.',
+        zh: '不支持在 iframe 中嵌入 在线3D查看器。'
     },
     'Emissive Map': {
         en: 'Emissive Map',
@@ -441,9 +441,9 @@ const LocalizedStrings = {
         en: 'Opacity',
         zh: '不透明度'
     },
-    'Open Online 3D Viewer': {
-        en: 'Open Online 3D Viewer',
-        zh: '打开 Online 3D Viewer'
+    'Open 在线3D查看器': {
+        en: 'Open 在线3D查看器',
+        zh: '打开 在线3D查看器'
     },
     'Open from url': {
         en: 'Open from url',

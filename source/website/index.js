@@ -53,8 +53,8 @@ export function StartWebsite ()
     window.addEventListener ('load', () => {
         if (window.self !== window.top) {
             let noEmbeddingDiv = AddDiv (document.body, 'noembed');
-            AddDiv (noEmbeddingDiv, null, Loc ('Embedding Online 3D Viewer in an iframe is not supported.'));
-            let link = AddDomElement (noEmbeddingDiv, 'a', null, Loc ('Open Online 3D Viewer'));
+            AddDiv (noEmbeddingDiv, null, Loc ('Embedding 在线3D查看器 in an iframe is not supported.'));
+            let link = AddDomElement (noEmbeddingDiv, 'a', null, Loc ('Open 在线3D查看器'));
             link.target = '_blank';
             link.href = window.self.location;
             return;
