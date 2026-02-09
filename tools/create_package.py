@@ -8,7 +8,7 @@ from lib import utils as Utils
 
 def GetVersion (rootDir):
 	packageJson = None
-	with open (os.path.join (rootDir, 'package.json')) as packageJsonFile:
+	with open (os.path.join (rootDir, 'package.json'), encoding = 'utf-8') as packageJsonFile:
 		packageJson = json.load (packageJsonFile)
 	return packageJson['version']
 
